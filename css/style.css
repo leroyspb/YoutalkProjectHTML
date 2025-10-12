@@ -495,6 +495,10 @@ p {
   gap: 16px;
 }
 
+.resize__full {
+  width: 691px;
+}
+
 .article-minicards {
   position: relative;
   display: flex;
@@ -640,6 +644,23 @@ p {
 
 .article__content-section--sublist--item{
   list-style: none; 
+}
+
+.article__content-section-text-italic{
+  padding: 24px 104px 48px 102px;
+  margin-top: 24px;
+  font-size: 16px;
+  width: 486px;
+  height: 96px;
+  position: relative;
+  z-index: 1;
+}
+
+.article__content-section-text-background-italic-img{
+  position: absolute;
+  top: 0;
+  left: 200px;
+  z-index: -1;
 }
 
 .text__centr {
