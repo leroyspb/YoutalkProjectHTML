@@ -571,7 +571,6 @@ p {
 
 .article__content-section--list {
   font-size: 16px;
-  font-weight: 500;
   text-decoration: underline;
   padding-left: 0;
 }
@@ -663,6 +662,24 @@ p {
   z-index: -1;
 }
 
+.article__content-section--photo-text{
+  display: flex;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.background__text{
+display: flex;
+flex-direction: column;
+gap: 8px;
+background-color: #FEFAEC;
+font-size: 16px;
+}
+
+.background__text_brown{
+  background-color: #FFF3EB
+}
+
 .text__centr {
 
   align-content: center;
@@ -671,9 +688,20 @@ p {
   display: block;
 }
 
+.img__centr{
+  margin: 0;
+  display: flex;
+  margin: 0 auto;
+  justify-items: center;
+}
+
 .none__text-decore{
   text-decoration: none;
   padding: 0;
+}
+
+.text__full-img {
+  width: 690px;
 }
 
 .footer {
