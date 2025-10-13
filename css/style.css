@@ -678,6 +678,12 @@ font-size: 16px;
 
 .background__text_brown{
   background-color: #FFF3EB
+  
+}
+
+.background__text_green{
+  background-color: #E6F8F6
+  
 }
 
 .text__centr {
@@ -693,6 +699,7 @@ font-size: 16px;
   display: flex;
   margin: 0 auto;
   justify-items: center;
+  margin-left: 42%;
 }
 
 .none__text-decore{
