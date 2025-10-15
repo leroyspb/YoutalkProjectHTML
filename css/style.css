@@ -164,7 +164,8 @@ p {
   display: flex;
   column-gap: 8px;
   margin-bottom: 24px;
-  justify-self: start;
+  justify-self: center;
+  color: #A2A7B1;
 }
 
 .main__content {
@@ -686,6 +687,27 @@ font-size: 16px;
   
 }
 
+.article__content-text-img {
+  display: flex;
+
+}
+
+.article__content-links{
+  display: inline;
+  color: #2963A3;
+  margin-bottom: 48px;
+}
+
+.text__start {
+  margin: 0;
+  margin-top: 8px;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+
+  flex-direction: column;
+}
+
 .text__centr {
 
   align-content: center;
@@ -852,6 +874,10 @@ font-size: 16px;
 
 .footer__input-img {
   margin-left: -10px;
+}
+.change__size {
+  width: 349px;
+  height: 280px;
 }
 
 .footer__row {
