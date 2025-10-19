@@ -1156,7 +1156,7 @@ img {
     padding: 0;
     margin: 0;
   }
-
+}
 
   /* Планшетная версия */
   @media (max-width: 1024px) and (min-width: 768px) {
@@ -1180,4 +1180,3 @@ img {
 
 
   }
-}
